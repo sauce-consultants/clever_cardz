@@ -10,7 +10,6 @@ defmodule CleverCardz.Client do
       {:ok, %HTTPoison.Response{status_code: 500, body: body}} ->
         {:error, body}
       {:error, %HTTPoison.Error{reason: reason}} ->
-        IO.inspect "HERE"
         {:error, reason}
     end
   end
