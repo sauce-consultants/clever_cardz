@@ -3,6 +3,7 @@
 **TODO: Add description**
 
 ## Installation
+<!-- CleverCardz.Balance.card_balance(5295960035652484, 284172) -->
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
@@ -21,4 +22,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:clever_cardz]]
     end
     ```
-

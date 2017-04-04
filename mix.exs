@@ -14,7 +14,7 @@ defmodule CleverCardz.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :httpoison, :sweet_xml]]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +27,9 @@ defmodule CleverCardz.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:sweet_xml, "~> 0.6.1"},
+      {:httpoison, "~> 0.10.0"}
+    ]
   end
 end
