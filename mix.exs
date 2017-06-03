@@ -29,7 +29,7 @@ defmodule CleverCardz.Mixfile do
   defp deps do
     [
       {:sweet_xml, "~> 0.6.1"},
-      {:httpoison, "~> 0.10.0"}
+      {:httpoison, "~> 0.11.1"}
     ]
   end
 end
